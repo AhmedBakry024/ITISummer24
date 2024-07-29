@@ -33,5 +33,5 @@ const asciiArt = `
 `
 
 app.listen(port, () => {
-    console.log(asciiArt);
+    console.log(asciiArt + "Server is running on port " + port);
 });
